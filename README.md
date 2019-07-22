@@ -1,4 +1,4 @@
-# Binary GA
+# Binary Genetic Algorithm
 This is the optimization program to find the maximum value of 2 dimensional non-linear function which based on the genetic algorithm (GA) with binary method.
 
 <!-- wp:paragraph {"align":"center"} -->
