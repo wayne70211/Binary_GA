@@ -1,5 +1,5 @@
 # Binary Genetic Algorithm
-This is the optimization program to find the maximum value of 2 dimensional non-linear function based on the genetic algorithm (GA) with binary method.
+This is the optimization program to find the maximum value of 2 dimensional non-linear function based on binary genetic algorithm (GA).
 
 <!-- wp:paragraph {"align":"center"} -->
 <p style="text-align:center">Institute of Aeronautics &amp; Astronautics course in NCKU at May 2018</p>
@@ -10,7 +10,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3} -->
-<h3><strong>1. Initialise</strong></h3>
+<h3><strong>1. Initialize</strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:list -->
@@ -22,7 +22,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Decode all the parents bits (<strong>Gene</strong>) to real value. Notice that it need to mapping by subject value.</li></ul>
+<ul><li>Decode all the parents' bits (<strong>Gene</strong>) to real values. Notice that it needs to map by subject values.</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -30,7 +30,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Use the decoded real value to calculate the function value (or <strong>fitness value</strong>)</li></ul>
+<ul><li>Use the decoded real values to calculate the function values (or <strong>fitness values</strong>)</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -38,7 +38,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Save the best fitness value and the parents bits&nbsp;<strong>(Gene)</strong></li></ul>
+<ul><li>Save the best fitness value and the parents' bits&nbsp;<strong>(Gene Array)</strong></li></ul>
 <!-- /wp:list -->
 
 
@@ -47,7 +47,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Use the fitness value to rank all the parents bits (<strong>Gene</strong>) and select 2 parents by call random select. <span style="color:#ff0000;">The fitness is larger, the probability to be selected is larger</span>. And the gene with less fitness still has chance to be selected.</li></ul>
+<ul><li>Use the fitness value to rank all the parents' bits (<strong>Gene</strong>) and select 2 parents by call random select. <span style="color:#ff0000;">If the fitness value is larger, the probability to be selected is larger</span>. Notice that the gene with less fitness value still has chance to be selected.</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -55,7 +55,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Call a random number, if the value less than the <strong><span style="color:#ff0000;">P_cross</span>&nbsp;</strong>(which between [0,1]) , then do the crossover. The crossover is to cut the selected 2 parent genes and exchange the bit value on the same side from the 2 selected parent genes. The final are the child genes.</li></ul>
+<ul><li>Call a random number, if the random value is less than the <strong><span style="color:#ff0000;">P_cross</span>&nbsp;</strong>(which between [0,1]) , then do the crossover. The crossover is to cut the selected 2 parents' genes and exchange the bit value on the same side from the 2 selected parents' genes. The result are the child genes.</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -63,7 +63,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Call a random number, if the value less than the <strong><span style="color:#ff0000;">P_mutation</span>&nbsp;</strong>(which between [0,1]) , then do the mutation. The mutation is to changed the child genes bit from 0 to 1 or 1 to 0. Each bit has probability to mutation.</li></ul>
+<ul><li>Call a random number, if the random value less than the <strong><span style="color:#ff0000;">P_mutation</span>&nbsp;</strong>(which between [0,1]) , then do the mutation. The mutation is to changed the children's genes bit from 0 to 1 or 1 to 0. Each bit has probability to mutate.</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -71,7 +71,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Decode all the child bits (<strong>Gene</strong>) to real value</li></ul>
+<ul><li>Decode all the children's bits (<strong>Gene</strong>) to real values</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -79,7 +79,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Use the decoded real value to calculate the function value (or <strong>fitness value</strong>)</li></ul>
+<ul><li>Use the decoded real values to calculate the function values (or <strong>fitness value</strong>)</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -87,11 +87,11 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Save the best fitness value and the child bits&nbsp;<strong>(Gene)</strong></li></ul>
+<ul><li>Save the best fitness values and the children's bits&nbsp;<strong>(Gene Array)</strong></li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"align":"center","level":4} -->
-<h4 class="has-text-align-center"><span style="color:#800080;">Do the loop from Process 5 to 10 when get the best fitness&nbsp;</span></h4>
+<h4 class="has-text-align-center"><span style="color:#800080;">Do the loop from Process 5 to 10 when get the best fitness values&nbsp;</span></h4>
 <!-- /wp:heading -->
 
 
@@ -100,7 +100,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Compare the best value from each loop and save the best fitness value and gene bits</li></ul>
+<ul><li>Compare the best value from each loop and save the best fitness values and Gene arrays</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -108,7 +108,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Finally, let's creep the gene value by used <span style="color:#ff6600;">Elitism gene</span>, try to find larger fitness</li></ul>
+<ul><li>Finally, let's creep the gene values by used <span style="color:#ff6600;">Elitism gene</span>, try to find larger fitness value</li></ul>
 <!-- /wp:list -->
 
 
