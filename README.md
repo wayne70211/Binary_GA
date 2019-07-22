@@ -91,7 +91,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:list -->
 
 <!-- wp:heading {"align":"center","level":4} -->
-<h2 class="has-text-align-center"><span style="color:#800080;">Do the loop from Process 5 to 10 to get the best fitness values&nbsp;</span></h2>
+<h2 class="has-text-align-center"><span style="color:#800080;">Do the loop from 5 to 10 and get the best fitness values&nbsp;</span></h2>
 <!-- /wp:heading -->
 
 
