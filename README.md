@@ -1,5 +1,5 @@
 # Binary GA
-This is the optimization program to find the maximum value of 2-D function which based on the genetic algorithm (GA) with binary method.
+This is the optimization program to find the maximum value of 2 dimensional non-linear function which based on the genetic algorithm (GA) with binary method.
 
 <!-- wp:paragraph {"align":"center"} -->
 <p style="text-align:center">Institute of Aeronautics &amp; Astronautics course in NCKU at May 2018</p>
@@ -16,10 +16,6 @@ This is the optimization program to find the maximum value of 2-D function which
 <!-- wp:heading {"align":"center"} -->
 <h2 class="has-text-align-center"><strong>Algorithm</strong></h2>
 <!-- /wp:heading -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
 <h3><strong>1. Initialise</strong></h3>
@@ -53,9 +49,6 @@ This is the optimization program to find the maximum value of 2-D function which
 <ul><li>Save the best fitness value and the parents bits&nbsp;<strong>(Gene)</strong></li></ul>
 <!-- /wp:list -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
 <h3><strong>5. RW Selection</strong></h3>
@@ -105,17 +98,10 @@ This is the optimization program to find the maximum value of 2-D function which
 <ul><li>Save the best fitness value and the child bits&nbsp;<strong>(Gene)</strong></li></ul>
 <!-- /wp:list -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator"/>
-<!-- /wp:separator -->
-
 <!-- wp:heading {"align":"center","level":4} -->
 <h4 class="has-text-align-center"><span style="color:#800080;">Do the loop from Process 5 to 10 when get the best fitness&nbsp;</span></h4>
 <!-- /wp:heading -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator"/>
-<!-- /wp:separator -->
 
 <!-- wp:heading {"level":3} -->
 <h3><strong>11. Elitism</strong></h3>
@@ -133,6 +119,4 @@ This is the optimization program to find the maximum value of 2-D function which
 <ul><li>Finally, let's creep the gene value by used <span style="color:#ff6600;">Elitism gene</span>, try to find larger fitness</li></ul>
 <!-- /wp:list -->
 
-<!-- wp:separator -->
-<hr class="wp-block-separator"/>
-<!-- /wp:separator -->
+
