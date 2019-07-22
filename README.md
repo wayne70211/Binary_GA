@@ -6,14 +6,6 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"align":"center"} -->
-<h2 class="has-text-align-center"><strong>Binary GA</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>This is the optimisation program to find the maximum value of 2-D function which used the&nbsp;<strong>genetic algorithm (GA)</strong> with binary method.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"align":"center"} -->
 <h2 class="has-text-align-center"><strong>Algorithm</strong></h2>
 <!-- /wp:heading -->
 
