@@ -108,7 +108,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Finally, let's creep the gene values by used <span style="color:#ff6600;">Elitism gene</span>, try to find larger fitness value</li></ul>
+<ul><li>Finally, let's creep the gene values by used <span style="color:#ff6600;">Elitism gene</span>and try to find larger fitness value</li></ul>
 <!-- /wp:list -->
 
 
