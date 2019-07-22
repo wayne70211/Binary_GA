@@ -22,7 +22,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Decode all the parents' bits (<strong>Gene</strong>) to real values. Notice that it needs to map by subject values.</li></ul>
+<ul><li>Decode all the parents' bits (<strong>Gene Array</strong>) to real values. Notice that it needs to map by subject values.</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -47,7 +47,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Use the fitness value to rank all the parents' bits (<strong>Gene</strong>) and select 2 parents by call random select. <span style="color:#ff0000;">If the fitness value is larger, the probability to be selected is larger</span>. Notice that the gene with less fitness value still has chance to be selected.</li></ul>
+<ul><li>Use the fitness value to rank all the parents' bits (<strong>Gene Array</strong>) and select 2 parents by call random select. <span style="color:#ff0000;">If the fitness value is larger, the probability to be selected is larger</span>. Notice that the gene with less fitness value still has chance to be selected.</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
@@ -71,7 +71,7 @@ This is the optimization program to find the maximum value of 2 dimensional non-
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul><li>Decode all the children's bits (<strong>Gene</strong>) to real values</li></ul>
+<ul><li>Decode all the children's bits (<strong>Gene Array</strong>) to real values</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3} -->
