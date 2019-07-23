@@ -10,7 +10,7 @@
         integer,dimension(:,:),allocatable :: GeneX,GeneY,Parent_X,Parent_Y,Child_X,Child_Y
         real :: fref,P_mutate,P_creep,rand,F_sum,Success_rate
 
-        open(2,file='Binary_GA.dat',form='formatted')
+        !open(2,file='Binary_GA.dat',form='formatted')
 !     **************** Input_Data *******************
         Nbit     = 30
         Npop_min = 10
@@ -91,9 +91,9 @@
 
           deallocate(GeneX,GeneY,X,Y,F,F_avg)
           if (BestX(1)+fref .ge. 22.) then
-            write(6,*)'Ckeck Convergence Success at F = 22'
+            !write(6,*)'Ckeck Convergence Success at F = 22'
             Success=Success+1
-            exit            ! Check the Nf_max
+            !exit            ! Check the Nf_max
           endif
 
 
